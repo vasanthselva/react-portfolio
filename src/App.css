@@ -78,11 +78,12 @@ header ul li{
     background-color: rgb(23, 29, 36);
     color: rgb(156, 237, 192);
     text-align: center;
-    
 }
 .mobile-nav li{
     @apply w-full h-full justify text-center border-b-2;
     position: center;
+    justify-content: center;
+    align-items: center;
 }
 .mobile-nav a {
   text-align: center;
