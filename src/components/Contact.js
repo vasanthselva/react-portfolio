@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center'id='contact'>
             <div className='md:w-1/2 flex justify-center'>
-                <img className='w-[250px]' src={ContactImg} alt="Contact" />
+                <img className='w-[250px] pb-5' src={ContactImg} alt="Contact" />
             </div>
             <div className='md:w-1/2 flex flex-col justify-center'>
                 <h1 className='text-4xl text-white border-b-4 border-[#0b192e] mb-5 w-[135px] font-bold'>Contact</h1>
