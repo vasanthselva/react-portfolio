@@ -10,7 +10,7 @@ export default function Header() {
     };
 
     return (
-        <header className="flex justify-center px-5 py-2 bg-fifth text-[#5de79b]">
+        <header className="flex justify-between px-5 py-2 bg-fifth text-[#5de79b]">
             <a className="font-bold text-color: rgb(156, 237, 192); bg-name" href="#">
                 Vasanth S
             </a>
@@ -27,7 +27,7 @@ export default function Header() {
 
             {toggleMenu && (
                 <nav className="block md:hidden">
-                    <ul className="flex flex-col mobile-nav">
+                    <ul className="flex flex-col justify-center mobile-nav">
                         <li><a href="/" onClick={handleLinkClick}>Home</a></li>
                         <li><a href="#about" onClick={handleLinkClick}>About</a></li>
                         <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
