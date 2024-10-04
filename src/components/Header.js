@@ -28,11 +28,11 @@ export default function Header() {
             {toggleMenu && (
                 <nav className="block md:hidden">
                     <ul className="flex flex-col justify-content: center mobile-nav">
-                        <li className="nav-item"><a href="/" onClick={handleLinkClick}>Home</a></li>
-                        <li className="nav-item"><a href="#about" onClick={handleLinkClick}>About</a></li>
-                        <li className="nav-item"><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
-                        <li className="nav-item"><a href="#experience" onClick={handleLinkClick}>Experience</a></li>
-                        <li className="nav-item"><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
+                        <li><a className="nav-item href="/" onClick={handleLinkClick}>Home</a></li>
+                        <li><a className="nav-item href="#about" onClick={handleLinkClick}>About</a></li>
+                        <li><a className="nav-item href="#projects" onClick={handleLinkClick}>Projects</a></li>
+                        <li><a className="nav-item href="#experience" onClick={handleLinkClick}>Experience</a></li>
+                        <li><a className="nav-item href="#contact" onClick={handleLinkClick}>Contact</a></li>
                     </ul>
                 </nav>
             )}
