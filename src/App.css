@@ -81,12 +81,19 @@ header ul li{
 }
 .mobile-nav li{
     @apply w-full h-full justify text-center border-b-2;
-    padding: 0px;
-    margin: 0px;
 }
-.mobile-nav a {
-  text-align: center;
-  display: block;
+
+.nav-item {
+    font-size: 18px;
+    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    
+    
+    padding: 10px 20px;
+    height: 100%;
 }
 .bg-text{
   text-align: justify;
