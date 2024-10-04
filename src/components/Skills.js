@@ -21,21 +21,21 @@ export default function Skills() {
             <h1 className='text-3xl text-[#0b192e] border-b-4 border-[#b32594cc] mb-5 w-[75px] font-bold'>Skills</h1>
             <h1 className='text-3x2 text-[#0b192e] mb-5 w-[75px] font-bold'>Front-end</h1>
             <div className='md:w-1/2 flex justify-start py-5 bg-skills'>
-            <a href='#'className='pr-3'><FaHtml5 size={40} /></a>
-            <a href='#'className='pr-3'><IoLogoCss3 size={40} /></a>
-            <a href='#'className='pr-3 '><TbBrandJavascript size={40} /></a>
-            <a href='#'className='pr-3 '><SiTypescript size={40} /></a>
-            <a href='#'className='pr-3 '><RiTailwindCssFill size={40} /></a>
-            <a href='#'className='pr-3 '><FaReact size={40} /></a>
+            <a className='pr-3'><FaHtml5 size={40} /></a>
+            <a className='pr-3'><IoLogoCss3 size={40} /></a>
+            <a className='pr-3 '><TbBrandJavascript size={40} /></a>
+            <a className='pr-3 '><SiTypescript size={40} /></a>
+            <a className='pr-3 '><RiTailwindCssFill size={40} /></a>
+            <a className='pr-3 '><FaReact size={40} /></a>
             </div>
             <h1 className='text-3x2 text-[#0b192e] mb-5 w-[75px] font-bold'>Back-end</h1>
             <div className='md:w-1/2 flex justify-start py-5 bg-skills'>
-            <a href='#'className='pr-3'><FaPython size={40} /></a>
-            <a href='#'className='pr-3'><BiLogoFlask size={40} /></a>
-            <a href='#'className='pr-3 '><DiDjango size={40} /></a>
-            <a href='#'className='pr-3 '><FaNode size={40} /></a>
-            <a href='#'className='pr-3 '><BiLogoMongodb size={40} /></a>
-            <a href='#'className='pr-3 '><VscVscodeInsiders size={40} /></a>
+            <a className='pr-3'><FaPython size={40} /></a>
+            <a className='pr-3'><BiLogoFlask size={40} /></a>
+            <a className='pr-3 '><DiDjango size={40} /></a>
+            <a className='pr-3 '><FaNode size={40} /></a>
+            <a className='pr-3 '><BiLogoMongodb size={40} /></a>
+            <a className='pr-3 '><VscVscodeInsiders size={40} /></a>
             </div>
         </div>
         </div>
