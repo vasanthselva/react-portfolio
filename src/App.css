@@ -81,7 +81,7 @@ header ul li{
     
 }
 .mobile-nav li{
-    @apply w-full h-full text-center border-b-2;
+    @apply w-full h-full justify text-center border-b-2;
 }
 .bg-text{
   text-align: justify;
