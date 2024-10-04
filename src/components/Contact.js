@@ -2,7 +2,7 @@ import ContactImg from '../assets/contact.webp';
 
 export default function Contact() {
     return (
-        <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'id='contact'>
+        <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center'id='contact'>
             <div className='md:w-1/2 flex justify-center'>
                 <img className='w-[250px]' src={ContactImg} alt="Contact" />
             </div>
@@ -26,7 +26,7 @@ export default function Contact() {
                     />
                     <button 
                         type="submit" 
-                        className="p-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                        className="p-3 bg-forth text-white rounded-lg hover:bg-secondary-dark transition duration-300">
                         Send Message
                     </button>
                 </form>
