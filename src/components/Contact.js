@@ -7,7 +7,7 @@ export default function Contact() {
                 <img className='w-[250px] pb-5' src={ContactImg} alt="Contact" />
             </div>
             <div className='md:w-1/2 flex flex-col justify-center'>
-                <h1 className='text-4xl text-white border-b-4 border-[#0b192e] mb-5 w-[135px] font-bold'>Contact</h1>
+                <h1 className='text-4xl text-white border-b-4 border-[#5de79b] mb-5 w-[135px] font-bold'>Contact</h1>
                 <form className="flex flex-col space-y-4">
                     <input 
                         type="text" 
