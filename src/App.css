@@ -78,6 +78,7 @@ header ul li{
     background-color: rgb(23, 29, 36);
     color: rgb(156, 237, 192);
     text-align: center;
+    position: center;
     
 }
 .mobile-nav li{
