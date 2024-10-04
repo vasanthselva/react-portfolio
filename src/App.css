@@ -81,9 +81,8 @@ header ul li{
 }
 .mobile-nav li{
     @apply w-full h-full justify text-center border-b-2;
-    position: center;
-    justify-content: center;
-    align-items: center;
+    padding: 0px;
+    margin: 0px;
 }
 .mobile-nav a {
   text-align: center;
