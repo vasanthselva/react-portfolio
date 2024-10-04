@@ -83,6 +83,10 @@ header ul li{
 .mobile-nav li{
     @apply w-full h-full justify text-center border-b-2;
 }
+.mobile-nav a {
+  text-align: center;
+  display: block;
+}
 .bg-text{
   text-align: justify;
 }
