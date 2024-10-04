@@ -1,7 +1,7 @@
 import AboutImg from '../assets/about.jpeg';
 export default function About() {
     return(
-        <section className='flex flex-col md:flex-row  px-5 py-5'>
+        <section className='flex flex-col md:flex-row  px-5 py-5 id='about''>
             <div className='md:w-1/2 flex justify-center'>
                 <img className='w-[300px]' src={AboutImg}/>
             </div>
