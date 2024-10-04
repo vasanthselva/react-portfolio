@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className='md:w-1/2 flex flex-col'>
             <h1 className='text-4xl text-[#0b192e] font-home-font justify-center border-b-4 border-[#162942] mb-5 w-[125px] font-bold'>Resume</h1>
-                    <p className='pb-5 text-[#162942] font-home-font'>You can view my resume <a className='btn' href='#'>Downlord</a></p>
+                    <p className='pb-5 text-[#162942] font-home-font'>You can view my resume <a className='btn' href='#current cv.pdf'>Downlord</a></p>
             </div>
         </div>
         <img className='md:w-1/3' src={vasanthImg}/>
