@@ -10,7 +10,7 @@ export default function Header() {
     };
 
     return (
-        <header className="flex justify-between px-5 py-2 bg-primary">
+        <header className="flex justify-between px-5 py-2 bg-fifth text-[#5de79b]">
             <a className="font-bold text-color: rgb(156, 237, 192); bg-name" href="#">
                 Vasanth S
             </a>
