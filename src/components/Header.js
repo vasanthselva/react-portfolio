@@ -26,13 +26,13 @@ export default function Header() {
             </nav>
 
             {toggleMenu && (
-                <nav className="block md:hidden justify-between">
+                <nav className=" flex font-bold items-center justify-center bg-secondary md:hidden">
                     <ul className="flex flex-col mobile-nav">
-                        <li><a className="nav-item href="/" onClick={handleLinkClick}>Home</a></li>
-                        <li><a className="nav-item href="#about" onClick={handleLinkClick}>About</a></li>
-                        <li><a className="nav-item href="#projects" onClick={handleLinkClick}>Projects</a></li>
-                        <li><a className="nav-item href="#experience" onClick={handleLinkClick}>Experience</a></li>
-                        <li><a className="nav-item href="#contact" onClick={handleLinkClick}>Contact</a></li>
+                        <li><a href="/" onClick={handleLinkClick}>Home</a></li>
+                        <li><a href="#about" onClick={handleLinkClick}>About</a></li>
+                        <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
+                        <li><a href="#experience" onClick={handleLinkClick}>Experience</a></li>
+                        <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
                     </ul>
                 </nav>
             )}
