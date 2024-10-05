@@ -28,10 +28,10 @@ export default function Projects() {
         ]
     }
 return(
-        <section className='flex flex-col py-20 px-5 justify-center  bg.primary text-[#5de79b]' id='projects'>
+        <section className='flex flex-col py-20 px-5 justify-center  bg.primary ' id='projects'>
 <div className='w-1/2'>
 <div className='flex justify-center'>
-<h1 className='text-4xl text-[#0b192e] border-b-4 border-[#9cedc0] mb-5 w-[140px] font-bold'>Projects</h1>
+<h1 className='text-4xl text-[#0b192e] border-b-4 border-[#800834] mb-5 w-[140px] font-bold'>Projects</h1>
 </div>
 </div>
 <div className='w-full'>
@@ -39,7 +39,7 @@ return(
     {config.projects.map((proc) => (
         <div className='relative'>
     <img className='h-[200px] w-[500px]' src= {proc.image}/>
-    <div className='absolute left-0 right-0 bottom-0 top-0 bg-forth opacity-0 duration=500 hover:opacity-100'>
+    <div className='absolute left-0 right-0 bottom-0 top-0 bg-third opacity-0 duration=500 hover:opacity-100'>
         <p className='text-center font-home-font px-5 py-5'>{proc.discribtion}</p>
         <div className='flex justify-center'>
     <a className='btn' target='blank' href={proc.link}>view project</a>
