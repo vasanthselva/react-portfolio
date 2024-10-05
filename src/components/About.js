@@ -12,7 +12,7 @@ export default function About() {
             </div>
             <div className='md:w-1/2 flex justify-center bg-text'>
             <div className='md:w-1/2 flex flex-col justify-center bg-'>
-            <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#9cedc0] mb-5 w-[170px] font-bold'>About me</h1>
+            <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#568bd1] mb-5 w-[170px] font-bold'>About me</h1>
                     <p className='pb-5 font-home-font'>{config.line1}</p>
                     <p className='pb-5 font-home-font'>{config.line2}</p>
                     <p className='font-home-font'>{config.line3}</p>
