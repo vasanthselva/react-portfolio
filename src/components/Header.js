@@ -10,12 +10,12 @@ export default function Header() {
     };
 
     return (
-        <header className="flex justify-between px-5 py-3 bg-fifth text-[#5de79b]">
-            <a className="font-bold text-color: rgb(156, 237, 192); bg-name" href="#">
+        <header className="flex justify-between px-5 py-4 bg-second text-white">
+            <a className="font-bold text-color: rgb(156, 237, 192); text-white" href="#">
                 Vasanth S
             </a>
 
-            <nav className="hidden md:block">
+            <nav className="hidden md:block font-bold">
                 <ul className="flex">
                     <li><a href="/">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -26,7 +26,7 @@ export default function Header() {
             </nav>
 
             {toggleMenu && (
-                <nav className=" flex font-bold items-center justify-center bg-secondary md:hidden">
+                <nav className=" flex font-bold items-center justify-center md:hidden">
                     <ul className="flex flex-col mobile-nav">
                         <li><a href="/" onClick={handleLinkClick}>Home</a></li>
                         <li><a href="#about" onClick={handleLinkClick}>About</a></li>
