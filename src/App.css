@@ -67,7 +67,7 @@ header ul li{
 }
 .bg-fifth{
   background-color: rgb(25, 25, 26);
-    box-shadow: 0 0 15px rgb(119, 123, 126);
+  color:rgb(156, 237, 192);
 }
 .bg-sixth{
   background-color: rgb(97, 101, 104);
@@ -105,3 +105,4 @@ header ul li{
 html{
 scroll-behavior: smooth;
 }
+
