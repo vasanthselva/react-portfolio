@@ -5,7 +5,7 @@ import ContactImg from '../assets/contact.webp';
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: '',
-        email: '',
+        gmail: '',
         message: ''
     });
 
@@ -16,26 +16,26 @@ export default function Contact() {
         });
     };
 
-    const sendEmail = (e) => {
+    const sendGmail = (e) => {
         e.preventDefault();
 
         emailjs.send(
-            'service_nspdntn', 
-            'template_5jpka3p', 
+            'service_f4z3db1', 
+            'template_cij5bbc', 
             formData,
-            'k_wAG6Eu6soUTXPIq'  
+            'Fg-AiSzboUhkxUXWy'  
         ).then((result) => {
-            console.log('Email sent successfully:', result.text);
+            console.log('mail sent successfully:', result.text);
             alert('Message Sent!');
         }, (error) => {
-            console.error('Failed to send email:', error.text);
+            console.error('Failed to send mail:', error.text);
             alert('Failed to send message. Please try again.');
         });
 
         // Clear form fields after submission
         setFormData({
             name: '',
-            email: '',
+            Gmail: '',
             message: ''
         });
     };
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
             <div className='md:w-1/2 flex flex-col justify-center'>
                 <h1 className='text-4xl text-white border-b-4 border-[#5de79b] mb-5 w-[135px] font-bold'>Contact</h1>
-                <form onSubmit={sendEmail} className="flex flex-col space-y-4">
+                <form onSubmit={sendGmail} className="flex flex-col space-y-4">
                     <input 
                         type="text" 
                         name="name" 
@@ -57,10 +57,10 @@ export default function Contact() {
                         className="p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary" 
                     />
                     <input 
-                        type="email" 
-                        name="email"
-                        placeholder="Email" 
-                        value={formData.email}
+                        type="gmail" 
+                        name="gmail"
+                        placeholder="Gmail" 
+                        value={formData.gmail}
                         onChange={handleChange}
                         className="p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary" 
                     />
