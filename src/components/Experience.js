@@ -3,7 +3,7 @@ export default function Experience() {
     return(<section id="experience">
         <div className='md:w-full flex justify-items-center px-5 py-32 bg-text'>
             <div className='md:w-full flex flex-col justify-center bg-text'>
-            <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#9cedc0] mb-5 w-[180px] font-bold '>Experience</h1>
+            <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#800834] mb-5 w-[180px] font-bold '>Experience</h1>
             <h2 className='text-1xl text-[#0b192e]  font-bold '><FaIndustry/> Lucas TVS, Chennai</h2>
           <p className='pb-5 font-home-font'>Feb 2024 - May 2024 Internship • (4 months)</p>
           <p className='pb-5 font-home-font'>I done internship in “lucas tvs driven” for gain manufacturing company production knowledge.</p>
