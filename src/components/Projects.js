@@ -17,7 +17,7 @@ export default function Projects() {
             },
             {
                 image: Projects3Img,
-                discribtion:'Portfolio website using basic html & css',
+                discribtion:'Portfolio website using basic html, css & Javascript',
                 link:'https://vasanthselvaportfolio.netlify.app/'
             },
             {
