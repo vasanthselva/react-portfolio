@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
         <div className='flex py-10 bg-icon'>
             <a href='https://github.com/vasanthselva'className='pr-5 '><FaGithub size={40} /></a>
-            <a href='https://www.linkedin.com/in/vasanth-selvakumar?/'className='pr-5 '><FaLinkedinIn size={40} /></a>
+            <a href='https://www.linkedin.com/in/vasanth-selvakumar/'className='pr-5 '><FaLinkedinIn size={40} /></a>
             <a href='https://www.instagram.com/vasanthx._/'className=''><FaInstagram size={40} /></a>
         </div>
         <div className='md:w-1/2 flex flex-col'>
