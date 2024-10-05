@@ -1,110 +1,55 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+import Projects1Img from '../assets/chatbot.jpeg';
+import Projects2Img from '../assets/sign language.jpeg';
+import Projects3Img from '../assets/old portfolio.PNG';
+import Projects4Img from '../assets/new portfolio.PNG';
+export default function Projects() {
+    const config = {
+        projects : [
+            {
+                image: Projects1Img,
+                discribtion:'The GYM Chatbot web appilication using NLP',
+                link:'https://github.com/vasanthselva/projects/tree/main/gym%20chatbot'
+            },
+            {
+                image: Projects2Img,
+                discribtion:'Sign language Recognition using python',
+                link:'https://github.com/vasanthselva/projects/tree/main/BATCH-5%20SIGN%20LANGUAGE%20DETECTION'
+            },
+            {
+                image: Projects3Img,
+                discribtion:'Portfolio website using basic html & css',
+                link:'https://vasanthselvaportfolio.netlify.app/'
+            },
+            {
+                image: Projects4Img,
+                discribtion:'Portfolio website using react library',
+                link:'https://github.com/vasanthselva/react-portfolio'
+            }
+        ]
+    }
+return(
+        <section className='flex flex-col py-20 px-5 justify-center  bg.primary ' id='projects'>
+<div className='w-1/2'>
+<div className='flex justify-center'>
+<h1 className='text-4xl text-[#0b192e] border-b-4 border-[#800834] mb-5 w-[140px] font-bold'>Projects</h1>
+</div>
+</div>
+<div className='w-full'>
+<div className='flex flex-col md:flex-row px-10 gap-5 '>
+    {config.projects.map((proc) => (
+        <div className='relative'>
+    <img className='h-[200px] w-[500px]' src= {proc.image}/>
+    <div className='absolute left-0 right-0 bottom-0 top-0 bg-third opacity-0 duration=500 hover:opacity-100'>
+        <p className='text-center font-home-font px-5 py-5'>{proc.discribtion}</p>
+        <div className='flex justify-center'>
+    <a className='btn' target='blank' href={proc.link}>view project</a>
+</div>
+    </div>
+    </div>
 
-header ul li{
-    @apply px-2;
+))}
+</div>
+</div>
+        </section>
+    );
 }
-.bg-icon{
-    color: white;
-    .links i:hover {
-        color: rgb(52, 255, 215);
-        transform: translateY(-5px);
-      }
-      
-      .links i:visited {
-        color: rgb(255, 250, 250);
-        text-decoration: underline;
-      }
-      
-      a:hover {
-        color: rgb(32, 96, 179);
-      }
-      
-      .links a {
-        color: rgb(199, 207, 218);
-      }
-      
-}
-.bg-skills{
-  color: rgb(11, 25, 46);
-  .links i:hover {
-      color: rgb(52, 255, 215);
-      transform: translateY(-5px);
-    }
-    
-    .links i:visited {
-      color: rgba(179, 37, 148, 0.801);
-      text-decoration: underline;
-    }
-    
-    a:hover {
-      color: rgba(179, 37, 148, 0.801);
-    }
-    
-    .links a {
-      color: #b32594cc;
-    }
-    
-}
-
-.bg-primary{
-    
-    background-color: rgb(93, 231, 155);
-    color: rgb(11, 25, 46);
-    box-shadow: 0 0 15px #058bf9;
-}
-.bg-name{
-    color: rgb(156, 237, 192);
-}
-.bg-secondary{
-    background-color: rgb(11, 25, 46);
-}
-.bg-forth{
-  background-color: rgb(11, 25, 46);
-    color: #5de79b;
-    box-shadow: 0 0 15px #058bf9;
-}
-.bg-fifth{
-  background-color: rgb(25, 25, 26);
-  color:rgb(156, 237, 192);
-  box-shadow: 0 0 15px rgb(119, 123, 126);
-}
-.bg-sixth{
-  background-color: rgb(97, 101, 104);
-    box-shadow: 0 0 15px rgb(119, 123, 126);
-}
-.mobile-nav{
-    @apply fixed top-10 left-0 w-full h-1/3;
-    background-color: rgb(23, 29, 36);
-    top: 15;
-    color: rgb(156, 237, 192);
-    
-}
-.mobile-nav li{
-    @apply w-full h-full text-center border-b-2;
-}
-.bg-text{
-  text-align: justify;
-}
-.bg-third{
-    
-  background-color: rgb(22, 41, 66);
-  color: white;
-  border-radius: 5%;
-}
-.bg-con{
-  background-color: rgb(22, 41, 66);
-  color: white;
-  box-shadow: 0 0 15px #058bf9;
-}
-.btn{
-  @apply bg-third px-5 py-2 font-bold hover:border-2 border-[#058bf9]
-}
-.con{
-  @apply bg-con px-5 py-2 font-bold hover:border-2 border-[#058bf9]
-}
-html{
-scroll-behavior: smooth;
-}
-
