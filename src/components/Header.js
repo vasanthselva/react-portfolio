@@ -10,6 +10,7 @@ export default function Header() {
     };
 
     return (
+        <div class="header-wrapper">
         <header className="flex justify-between px-5 py-4 bg-second text-white">
             <a className="font-bold text-color: rgb(156, 237, 192); text-white" href="#">
                 Vasanth S
@@ -41,5 +42,6 @@ export default function Header() {
                 <Bars3Icon className="text-white h-5" />
             </button>
         </header>
+        </div>
     );
 }
