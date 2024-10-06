@@ -50,6 +50,7 @@ header ul li{
 
 .bg-primary{
   background-color: #530332;
+  index-z: 1000;
 }
 .bg-name{
     color: white;
