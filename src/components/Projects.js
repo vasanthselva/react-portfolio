@@ -31,7 +31,7 @@ return(
         <section className='flex flex-col py-20 px-5 justify-center  bg-primary ' id='projects'>
 <div className='w-1/2'>
 <div className='flex justify-center'>
-<h1 className='text-4xl text-[#0b192e] border-b-4 border-[#800834] mb-5 w-[140px] font-bold'>Projects</h1>
+<h1 className='text-4xl text-white border-b-4 border-[#800834] mb-5 w-[140px] font-bold'>Projects</h1>
 </div>
 </div>
 <div className='w-full'>
