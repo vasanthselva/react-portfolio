@@ -6,7 +6,7 @@ export default function Remote() {
     return(<section className='flex flex-col md:flex-row  px-5 py-5 bg-primary' id="remote">
         <div className='w-1/2 md:w-ful  flex justify-items-center px-5 bg-primary'>
             <div className='md:w-full flex flex-col justify-center bg-text'>
-            <h1 className='text-3xl text-white border-b-4 border-[#b32594cc] mb-5 w-[185px] font-bold'>RemoteWork</h1>
+            <h1 className='text-3xl text-white border-b-4 border-[#800834] mb-5 w-[185px] font-bold'>RemoteWork</h1>
             <h1 className='text-1xl text-white mb-5 w-[250px] font-bold flex items-center' href='#remote'>
       <CgWebsite size={25} className="mr-2"/>Web Design</h1>
       <h1 className='text-1xl text-white mb-5 w-[250px] font-bold flex items-center' href='#remote'>
