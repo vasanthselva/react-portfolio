@@ -58,7 +58,7 @@ header ul li{
   background-color: #800834;
   color:white;
   box-shadow: 0 0 15px #D64958;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 .bg-third{
