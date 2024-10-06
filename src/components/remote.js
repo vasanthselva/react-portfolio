@@ -18,8 +18,8 @@ export default function Remote() {
             </div>
             </div>
             <div className="flex flex-col justify-center items-center mb-4 bg-primary">
-          <h2 href="mailto:cssvasanth@gmail.com" className=" w-[185px] hover:text-gray-400 text-white text-1xl  mb-5 w-[250px] flex items-center"><FaEnvelope size={20} className="text-white mr-2" />Email</h2>
-        <h2 href="https://wa.me/<917094988549>?text=<message>" className=" w-[185px] hover:text-gray-400 text-white text-1xl mb-5 w-[250px] flex items-center"><FaWhatsappSquare size={20} className="text-white mr-2" /> Whatapp</h2>
+          <a href="mailto:cssvasanth@gmail.com" className=" w-[185px] hover:text-gray-400 text-white text-1xl  mb-5 w-[250px] flex items-center"><FaEnvelope size={20} className="text-white mr-2" />Email</a>
+        <a href="https://wa.me/<917094988549>?text=<message>" className=" w-[185px] hover:text-gray-400 text-white text-1xl mb-5 w-[250px] flex items-center"><FaWhatsappSquare size={20} className="text-white mr-2" /> Whatapp</a>
         </div>
 
     </section>)
