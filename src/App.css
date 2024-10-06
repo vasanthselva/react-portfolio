@@ -50,7 +50,6 @@ header ul li{
 
 .bg-primary{
   background-color: #530332;
-  index-z: 1000;
 }
 .bg-name{
     color: white;
@@ -61,6 +60,7 @@ header ul li{
   box-shadow: 0 0 15px #D64958;
   position: fixed;
   width: 100%;
+  index-z: 1000;
 }
 .header-wrapper {
   position: relative;
