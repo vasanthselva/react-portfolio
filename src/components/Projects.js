@@ -37,7 +37,7 @@ return(
 <div className='w-full'>
 <div className='flex flex-col md:flex-row px-10 gap-5 '>
     {config.projects.map((proc) => (
-        <div className='relative index-Z'>
+        <div className='relative'>
     <img className='h-[200px] w-[500px]' src= {proc.image}/>
     <div className='absolute left-0 right-0 bottom-0 top-0 bg-third opacity-0 duration=500 hover:opacity-100'>
         <p className='text-center font-home-font px-5 py-5'>{proc.discribtion}</p>
