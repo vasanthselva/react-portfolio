@@ -5,7 +5,7 @@ export default function Education() {
         line2:'Chendhuran College of Engineering and Technology.'
     }
     return(
-        <section className='flex flex-col md:flex-row  px-5 py-5'>
+        <section className='flex flex-col md:flex-row  px-5 py-5 justify-items-center' id='education'>
             <div className='md:w-1/2 flex justify-center'>
             <img className='w-[300px]' src={EducationImg} alt="Resume" />
             </div>
