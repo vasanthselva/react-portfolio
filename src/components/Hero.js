@@ -39,7 +39,7 @@ const CarouselComponent = () => {
   };
 
   return (
-    <div className='slick-slider  slick-list slick-track'id='#hero'>
+    <div className='p-5 slick-slider  slick-list slick-track'id='#hero'>
       <h2> React Slick Carousel </h2>
       <Slider {...settings}>
         <div className="wanted-poster">
