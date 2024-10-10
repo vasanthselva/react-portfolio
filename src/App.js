@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import Home from './components/Home';
+import CarouselComponent from './components/Hero';
 import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Home/>
+      <CarouselComponent/>
       <About/>
       <Education/>
       <Skills/>
