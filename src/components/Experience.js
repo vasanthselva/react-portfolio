@@ -1,9 +1,9 @@
 import { FaIndustry } from "react-icons/fa";
 export default function Experience() {
-    return(<section id="experience">
-        <div className='md:w-full flex justify-items-center px-5 py-32 bg-text'>
-            <div className='md:w-full flex flex-col justify-center bg-text'>
-            <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#800834] mb-5 w-[180px] font-bold '>Experience</h1>
+    return(<section id="experience"><div className='md:w-full flex justify-items-center px-5 py-32 bg-text'>
+        <div className='md:w-full flex flex-col justify-center bg-text'>
+        <h1 className='text-4xl text-[#0b192e] border-b-4 border-[#ddaf69] mb-5 w-[180px] font-bold '>Experience</h1>
+
             <h2 className='text-1xl text-[#0b192e]  font-bold '><FaIndustry/> Lucas TVS, Chennai</h2>
           <p className='pb-5 font-home-font'>Feb 2024 - May 2024 Internship • (4 months)</p>
           <p className='pb-5 font-home-font'>I done internship in “lucas tvs driven” for gain manufacturing company production knowledge.</p>
@@ -19,7 +19,7 @@ export default function Experience() {
           <p className='pb-5'>Technical Skills: Acquired practical knowledge in operating manufacturing machinery and utilizing quality control tools. Gained familiarity with industry software used for monitoring production metrics and managing quality data.</p>
             
           <h2 className='text-1xl text-[#0b192e]  font-bold pb-2'>DLK Career Development</h2>
-            <p className="font-home-font">Industrial visit Certificate for “React” domain from DLK career development participated and
+            <p className="font-home-font">Industry visit Certificate for “React” domain from DLK career development participated and
                 focused on React development, gaining practical insights into modern web development
                 practices and technologies acquired valuable knowledge.</p>
                 <p>During the visit, I engaged in a comprehensive program designed to enhance understanding and practical skills in modern web development. The visit provided valuable insights into:</p>
