@@ -1,4 +1,4 @@
-import { Bars3Icon } from '@heroicons/react/24/solid';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
 
 export default function Header() {
@@ -10,19 +10,18 @@ export default function Header() {
     };
 
     return (
-        <div class="header-wrapper">
-        <header className="flex justify-between px-5 py-4 bg-second text-white">
-            <a className="font-bold text-color: rgb(156, 237, 192); text-white" href="#">
+        <header className="flex justify-between px-5 py-4 bg-second text-white pb-5">
+            <a className="font-bold  text-[#2c2a2a]" href="#remote">
                 Vasanth S
             </a>
 
             <nav className="hidden md:block font-bold">
                 <ul className="flex">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li className="hover:shadow-md transition-shadow duration-300"><a href="/">Home</a></li>
+                    <li className="hover:shadow-md transition-shadow duration-300"><a href="#about">About</a></li>
+                    <li className="hover:shadow-md transition-shadow duration-300"><a href="#projects">Projects</a></li>
+                    <li className="hover:shadow-md transition-shadow duration-300"><a href="#experience">Experience</a></li>
+                    <li className="hover:shadow-md transition-shadow duration-300"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
@@ -38,10 +37,13 @@ export default function Header() {
                 </nav>
             )}
 
-            <button onClick={() => setToggleMenu(!toggleMenu)} className="block md:hidden">
-                <Bars3Icon className="text-white h-5" />
-            </button>
+<button onClick={() => setToggleMenu(!toggleMenu)} className="block md:hidden">
+  {toggleMenu ? (
+    <XMarkIcon className="text-[#2c2a2a] h-5" /> // X icon when menu is open
+  ) : (
+    <Bars3Icon className="text-[#2c2a2a] h-5" /> // Hamburger icon when menu is closed
+  )}
+</button>
         </header>
-        </div>
     );
 }
