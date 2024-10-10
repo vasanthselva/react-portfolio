@@ -1,5 +1,5 @@
 import SkillsImg from '../assets/skills.jpeg';
-import { FaHtml5, FaGithub, FaReact, FaPython, FaNode } from "react-icons/fa";
+import { FaHtml5, FaReact, FaPython, FaNode } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandJavascript } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -11,7 +11,7 @@ import { VscVscodeInsiders } from "react-icons/vsc";
 
 export default function Skills() {
     return (
-        <section className='flex flex-col md:flex-row  px-5 py-5' id='skills'>
+        <section className='flex flex-col md:flex-row  px-5 py-5 justify-items-center' id='skills'>
             {/* Image Section */}
             <div className='md:w-1/2 flex justify-center'>
                 <img className='w-[300px]' src={SkillsImg} alt="Skills" />
