@@ -28,10 +28,10 @@ export default function Projects() {
         ]
     }
 return(
-        <section className='flex flex-col py-20 px-5 justify-center  bg-primary ' id='projects'>
+        <section className='flex flex-col py-20 px-5 justify-center  bg-[#e9c674] ' id='projects'>
 <div className='w-1/2'>
 <div className='flex justify-center'>
-<h1 className='text-4xl text-white border-b-4 border-[#800834] mb-5 w-[140px] font-bold'>Projects</h1>
+<h1 className='text-4xl text-[#2c2a2a] border-b-4 border-[#d8ab41] mb-5 w-[140px] font-bold'>Projects</h1>
 </div>
 </div>
 <div className='w-full'>
