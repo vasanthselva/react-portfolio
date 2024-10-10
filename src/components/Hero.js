@@ -117,7 +117,7 @@ const CarouselComponent = () => {
           <h2 className="poster-name">VASANTH.S</h2>
 
           {/* BOUNTY AMOUNT */}
-          <p className="poster-bounty">$ flexible</p>
+          <p className="poster-bounty">IT Field</p>
 
           {/* HIRE ME BUTTON */}
           <a href="#skills" className="hire-me-button rounded-lg">
